@@ -1,7 +1,7 @@
 package redis
 
 import (
-	"github.com/YotpoLtd/resec/resec/state"
+	"github.com/aaronkvanmeerten/resec/resec/state"
 	"github.com/go-redis/redis"
 	log "github.com/sirupsen/logrus"
 )

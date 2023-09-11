@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/YotpoLtd/resec/resec/consul"
-	"github.com/YotpoLtd/resec/resec/redis"
-	"github.com/YotpoLtd/resec/resec/state"
+	"github.com/aaronkvanmeerten/resec/resec/consul"
+	"github.com/aaronkvanmeerten/resec/resec/redis"
+	"github.com/aaronkvanmeerten/resec/resec/state"
 )
 
 func TestReconciler_RunBecomeMaster(t *testing.T) {

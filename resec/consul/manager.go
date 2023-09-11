@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/YotpoLtd/resec/resec/state"
+	"github.com/aaronkvanmeerten/resec/resec/state"
 	consulapi "github.com/hashicorp/consul/api"
 )
 
