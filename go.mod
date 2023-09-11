@@ -4,12 +4,12 @@ go 1.20
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/go-redis/redis v6.10.2+incompatible
+	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/hashicorp/consul v1.0.7
 	github.com/hashicorp/go-cleanhttp v0.0.0-20171218145408-d5fe4b57a186
 	github.com/hashicorp/go-rootcerts v0.0.0-20160503143440-6bb64b370b90
 	github.com/hashicorp/serf v0.8.1
-	github.com/jpillora/backoff v0.0.0-20170918002102-8eab2debe79d
+	github.com/jpillora/backoff v1.0.0
 	github.com/mitchellh/go-homedir v0.0.0-20161203194507-b8bc1bf76747
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/seatgeek/logrus-gelf-formatter v0.0.0-20210414080842-5b05eb8ff761
