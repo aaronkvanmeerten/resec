@@ -181,6 +181,10 @@ WantedBy=multi-user.target
 
 ```
 
+## To Build this fork
+
+docker buildx build --no-cache --platform=linux/arm64,linux/amd64 --push --pull --progress=plain --tag aaronkvanmeerten/resec:0.0.1 --tag aaronkvanmeerten/resec:latest .
+
 ## Copyright and license
 
 Code released under the [MIT license](https://github.com/aaronkvanmeerten/ReSeC/blob/master/LICENSE).
