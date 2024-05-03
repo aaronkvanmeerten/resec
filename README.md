@@ -1,4 +1,4 @@
-[![Gitter](https://badges.gitter.im/redis-service-consul/Lobby.svg)](https://gitter.im/redis-service-consul/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Go Report Card](https://goreportcard.com/badge/github.com/YotpoLtd/resec)](https://goreportcard.com/report/github.com/YotpoLtd/resec) [![Build Status](https://travis-ci.org/YotpoLtd/resec.svg?branch=master)](https://travis-ci.org/YotpoLtd/resec)
+[![Gitter](https://badges.gitter.im/redis-service-consul/Lobby.svg)](https://gitter.im/redis-service-consul/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Go Report Card](https://goreportcard.com/badge/github.com/aaronkvanmeerten/resec)](https://goreportcard.com/report/github.com/aaronkvanmeerten/resec) [![Build Status](https://travis-ci.org/aaronkvanmeerten/resec.svg?branch=master)](https://travis-ci.org/aaronkvanmeerten/resec)
 
 <p align="center">
   <img src="https://s.gravatar.com/avatar/96b073f48aae741171d137f21c849d84?s=160" alt="Resec - Consul based highly available Redis replication agent" />
@@ -181,6 +181,10 @@ WantedBy=multi-user.target
 
 ```
 
+## To Build this fork
+
+docker buildx build --no-cache --platform=linux/arm64,linux/amd64 --push --pull --progress=plain --tag aaronkvanmeerten/resec:0.0.1 --tag aaronkvanmeerten/resec:latest .
+
 ## Copyright and license
 
-Code released under the [MIT license](https://github.com/YotpoLtd/ReSeC/blob/master/LICENSE).
+Code released under the [MIT license](https://github.com/aaronkvanmeerten/ReSeC/blob/master/LICENSE).

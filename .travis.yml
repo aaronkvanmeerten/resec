@@ -15,6 +15,6 @@ deploy:
   file_glob: true
   file: build/*.zip
   on:
-    repo: YotpoLtd/resec
+    repo: aaronkvanmeerten/resec
     branch: master
     tags: true

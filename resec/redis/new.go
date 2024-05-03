@@ -3,7 +3,7 @@ package redis
 import (
 	"time"
 
-	"github.com/YotpoLtd/resec/resec/state"
+	"github.com/aaronkvanmeerten/resec/resec/state"
 	"github.com/go-redis/redis"
 	log "github.com/sirupsen/logrus"
 	cli "gopkg.in/urfave/cli.v1"

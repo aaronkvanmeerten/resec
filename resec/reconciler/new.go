@@ -6,8 +6,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/YotpoLtd/resec/resec/consul"
-	"github.com/YotpoLtd/resec/resec/redis"
+	"github.com/aaronkvanmeerten/resec/resec/consul"
+	"github.com/aaronkvanmeerten/resec/resec/redis"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
